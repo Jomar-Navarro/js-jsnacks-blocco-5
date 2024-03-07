@@ -95,3 +95,30 @@ function parolaGirata() {
 
 const nuovaParola = parolaGirata(parola);
 console.log(nuovaParola);
+
+/*
+------------------------------------------------------------------------
+
+                                JSnack 4
+
+------------------------------------------------------------------------
+*/
+
+const arrayUno = ['a', 'b', 'c'];
+const arrayDue = [1, 2, 3];
+
+const arrayUnoDue = [];
+
+for (const i in arrayUno) {
+  arrayUnoDue.push(arrayUno[i], arrayDue[i]);
+}
+
+console.log(arrayUnoDue);
+
+/*
+------------------------------------------------------------------------
+
+                                JSnack 5
+
+------------------------------------------------------------------------
+*/
