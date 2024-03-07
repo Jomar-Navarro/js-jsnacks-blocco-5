@@ -77,3 +77,21 @@ console.log('Il peso totale delle zucchine é: ', pesoTotMaggiori15);
 
 ------------------------------------------------------------------------
 */
+
+const parola = 'ciao';
+
+function parolaGirata() {
+
+  // Mi separe le varie lettere e le converte in un array di caratteri
+  const splitParola = parola.split('');
+  // Mi ribalta i caratteri dell'array
+  const nuovaParola = splitParola.reverse();
+
+  // Mi unisce i caratteri dell'array e li mette in una nuova stringa
+  const parolaInvertita = nuovaParola.join('');
+
+  return parolaInvertita;
+}
+
+const nuovaParola = parolaGirata(parola);
+console.log(nuovaParola);
